@@ -9,7 +9,7 @@ public class DataTypsPrimitives {
         double avr = 80.5;
         boolean isMale =true;
         System.out.println("Myage "+age);
-        System.out.println( "Firstletter "+);
+        System.out.println( "Firstletter "+FirstChar);
 
     }
 
