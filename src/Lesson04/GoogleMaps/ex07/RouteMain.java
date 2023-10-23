@@ -1,4 +1,4 @@
-package Lesson04.GoogleMaps;
+package Lesson04.GoogleMaps.ex07;
 
 public class RouteMain {
     public static void main(String[] args) {
