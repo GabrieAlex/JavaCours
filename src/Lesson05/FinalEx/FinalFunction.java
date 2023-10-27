@@ -4,7 +4,7 @@ public class FinalFunction {
 
     //Part 1:
 
-    public String functionReverse (int number){
+    public String functionReverse01 (int number){
         String temp = "";
         String sNumber = Integer.toString(number);
         String[] arr =sNumber.split("");
@@ -12,5 +12,16 @@ public class FinalFunction {
           temp += arr[i];
         }
         return temp;
+
+
+
+    }
+    //Part 2:
+
+    public String fucnctionRevese02 (double number){
+        String sNumber = Double.toString(number);
+        String[] arr =sNumber.split("\\.");
+
+        return arr[1]+ "." +arr[0];
     }
 }
